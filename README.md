@@ -24,83 +24,33 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 
 
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global domain name registrar market is valued at approximately **$2.5B–$2.7B** (with over 400 million active domain registrations globally across all TLDs) and is expanding at a steady CAGR of ~4.5%. The sector exhibits a **dual structure**: heavily concentrated at the top where an oligopoly of leading players (GoDaddy, Namecheap/Spaceship, Tucows, IONOS) accounts for ~30–35% of total volume, yet moderately-to-highly fragmented across the remaining ~65–70% among 1,500+ ICANN-accredited registrars, web hosting consolidators, and regional/niche reseller networks.
 
 ## SaaS/Hosted Platforms
 
+| Platform | Company Scale (Revenue / Valuation) | Pricing (Starting Tier) | Free Tier / Trial Limits | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Cloudflare Registrar](https://www.cloudflare.com/products/registrar/)** | ~$69.1B Market Cap / $2.17B Rev (FY25) | At-cost pricing (e.g., ~$10.44/yr for `.com` registration & renewal with zero markup) | Free tier available: Free authoritative DNS, DDoS mitigation, universal SSL/TLS, and 3 Page Rules forever (no free domain registration; domains billed at ICANN wholesale cost) | Sells domains strictly at cost with zero retail markup or renewal spikes. Free WHOIS privacy and 1-click DNSSEC included; requires using Cloudflare nameservers. |
+| **[GoDaddy](https://www.godaddy.com/)** | ~$17.1B Market Cap / $4.95B Rev (FY25) | $0.01 to $1.99 1st yr `.com` (renews at $22.99/yr); standard tiers from $12.99/yr | 7-day free trial on GoDaddy Airo Website Builder & Hosting (no credit card required; domain registration not included free) | Largest registrar by volume. 500+ extensions, AI-assisted setup via GoDaddy Airo, auctions, Discount Domain Club, and CashParking. |
+| **[IONOS](https://www.ionos.com/)** | ~€4.5B Market Cap (~$4.8B) / €1.32B Rev (FY25) | $1.00 1st yr `.com` (renews at $17.00/yr); bundled hosting plans start at $1.00/mo | 30-day money-back guarantee trial on hosting and domain bundles; no permanent free domain plan | European hosting and registrar giant (formerly 1&1). Offers 600+ extensions, free WHOIS privacy, 24/7 phone support, and Wildcard SSL. |
+| **[Namecheap](https://www.namecheap.com/)** | $1.5B Valuation / $398M Rev (FY24) | $10.98 1st yr `.com` (renews at $18.48/yr); other TLDs start at $0.99/yr | 30-day free trial for Spacemail / Namecheap Private Email (1 mailbox, 5GB email storage, 2GB file storage; domains require paid purchase) | High-volume consumer-favorite registrar founded in 2000. Includes free Lifetime WHOIS privacy (WhoisGuard) and DNS with up to 100 subdomains per domain. |
+| **[Hover](https://www.hover.com/)** | ~$390M Parent Rev (Tucows NASDAQ: TCX) / ~$70M Segment Rev | $18.99/yr flat `.com` registration & renewal; alternative TLDs start at $4.99/yr | No free trial; 30-day money-back grace period on select domain registrations & Tucows services | Retail registrar brand of Tucows focusing on clean, no-upsell domain management, transparent flat renewals, and tiered volume discounts for 10+ domains. |
+| **[NameSilo](https://www.namesilo.com/)** | ~$95M Market Cap (CSE: URL) / $65.5M Rev (FY25) | $11.05/yr flat `.com` ($8.75/yr with volume discount); entry TLDs from $1.99/yr | Free DNS management and lifetime WHOIS privacy on all accounts; 30-day free trial for Titan Professional Email | Publicly traded registrar known for lowest 5-year total ownership cost ($11.05/yr flat for `.com`), zero transfer fees, and discount program via account top-up. |
+| **[Dynadot](https://www.dynadot.com/)** | ~$15M–$20M Est. Revenue / Privately held | $10.99 1st yr `.com` (renews at $12.99/yr); entry promos start at $1.88/yr | Free tier includes free one-page website builder (with Dynadot branding, 1 page limit), free DNS hosting, and free WHOIS privacy | Renowned for domain investing, aftermarket auctions, RESTful v2 API with HMAC secret authentication, and arbitrary domain WHOIS lookup capability. |
+| **[Spaceship](https://www.spaceship.com/)** | Backed by Namecheap Group ($1.5B Val / $398M Rev) | $9.98/yr flat `.com` registration and renewals; promo extensions from $0.88/yr | Free lifetime WHOIS privacy, free Spacemail starter mailbox trial (30 days), and free 100 URL/email forwarding rules forever | Next-generation registrar platform with flat $9.98 `.com` renewals, default DNSSEC, Spacemail integration, and built-in domain portfolio management. |
+| **[Gandi](https://www.gandi.net/)** | ~$10M–$25M Est. Segment Revenue (European Domain Group) | €17.53/yr (~$19.10/yr) for `.com`; specialty TLDs starting at €4.99/yr | Free tier includes 2 free 3GB Webmail mailboxes and 1,000 email forwarders per domain for life with any active domain registration | Established European registrar with a privacy-first ethos ("No Bullshit"), PAT API access, free SSL certificate for 1 year per domain, and standard DNSSEC. |
+| **[Porkbun](https://porkbun.com/)** | Bootstrap / Privately held (>4M domains managed) | $9.98 1st yr `.com` (renews at $10.98/yr); entry TLDs start at $1.50/yr | Free tier includes free WHOIS privacy, free SSL certificate, free URL forwarding, and 3-month free trial of professional email hosting | Developer-friendly registrar known for low margins, free developer JSON v3 API, free WHOIS privacy, URL and email forwarding, and free SSL certificates. |
 
-
-- **[Namecheap](https://www.namecheap.com/)**  
-
-  One of the most affordable and user-friendly domain providers, founded in 2000. Features free WHOIS privacy (WhoisGuard), reliable DNS servers in US and Europe, and up to 100 subdomains per domain. .com registration starts at $10.98, renews at $18.48/year with free privacy . Known for straightforward pricing and budget-friendly hosting bundles .
-
-
-
-- **[Cloudflare Registrar](https://www.cloudflare.com/products/registrar/)**  
-
-  Sells domains at cost—registration and renewal are the same price, with no markup or renewal spikes. Free WHOIS privacy and free 1-click DNSSEC on every domain. Requires using Cloudflare's nameservers (no third-party DNS option). 390+ extensions supported. Deep integration with Cloudflare's CDN, DDoS protection, and security stack. G2 rating: 4.5/5 .
-
-
-
-- **[Porkbun](https://porkbun.com/)**  
-
-  JSON v3 API with free keys for developers—checkDomain, pricing/get (keyless), and domain management. WHOIS privacy included free. Easiest API access among registrars according to API capability research . Competitive pricing with transparent renewal rates. .com register $9.98, renew $10.98 (per example output) .
-
-
-
-- **[Dynadot](https://www.dynadot.com/)**  
-
-  RESTful v2 API with key + HMAC secret authentication. Supports domain search, TLD pricing lookup, and **WHOIS lookup for arbitrary domains**—a rare capability among registrars. Medium API difficulty. Renowned for domain investing tools and aftermarket services .
-
-
-
-- **[GoDaddy](https://www.godaddy.com/)**  
-
-  Largest registrar by volume. First-year promos can drop .com to as little as a cent with 3-year commitment (renews at $22.99). 500+ extensions. AI-assisted setup via GoDaddy Airo. Domain investing tools include appraisals, Discount Domain Club, auctions, and CashParking. **API requires 50+ domains** for availability checks—hard access. Checkout pushes many add-ons .
-
-
-
-- **[Hover](https://www.hover.com/)**  
-
-  First and foremost a domain registrar with transparent pricing. .com costs $18.99/year, renews at same rate. Free WHOIS privacy. No discount for multi-year registration, but **bulk renewal discounts** for 10+ domains. Best for anyone managing multiple domains .
-
-
-
-- **[NameSilo](https://www.namesilo.com/)**  
-
-  **Cheapest 5-year total cost** among major registrars: $11.05/year consistently, $55.25 over five years with free WHOIS privacy . Discount program locks in $11.05 .com pricing with $50 minimum account top-up (funds usable immediately). Volume discounts: $8.75/year for 100+ domains, $7.75/year for 5,000+. No transfer fees. API available with XML/JSON responses .
-
-
-
-- **[Gandi](https://www.gandi.net/)**  
-
-  V5 REST API with PAT (Bearer pat_…) authentication. Domain check endpoint returns availability and pricing in response. Easy API access. European registrar with strong privacy focus and no-nonsense pricing .
-
-
-
-- **[IONOS](https://www.ionos.com/)**  
-
-  European hosting provider (formerly 1&1) with domain registration. Bundles hosting with free domain for first year and Wildcard SSL. 600+ extensions. Free WHOIS privacy. 24/7 phone support. TrustPilot: 4.7/5. **API is management-only**—no availability or pricing endpoints .
-
-
-
-- **[Spaceship](https://www.spaceship.com/)**  
-
-  $9.98 .com renewals that stay the same every year—no hikes. Free WHOIS privacy for life of domain. Free DNSSEC by default. Free email and URL forwarding (100 redirects per domain). Modern DNS panel supports all major record types. SellerHub for domain listings .
 
 
 
