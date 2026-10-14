@@ -1,42 +1,49 @@
-# Awesome-Domain-Registrars
+<div align="center">
 
-## Top Domain Registrars Ecosystem
+<img src="./assets/banner.svg" alt="Awesome Domain Registrars Banner" width="100%" />
 
+# 🌐 Awesome Domain Registrars 🚀
 
+**A curated directory of top-tier SaaS domain registrars, ICANN-accredited providers, EPP software, DNS management suites, and open-source registry infrastructure.**
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Domain-Registrars/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Domain-Registrars?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Domain-Registrars/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Domain-Registrars?style=social" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Domain-Registrars/issues"><img src="https://img.shields.io/github/issues/ishandutta2007/Awesome-Domain-Registrars?style=flat-square&color=blue" alt="Open Issues" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Domain-Registrars/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
-*Focused on Domain Registration, DNS Management & Registry Infrastructure*  
+*Empowering developers, sysadmins, domain investors, and registry operators with transparent pricing, battle-tested tools, and open-source infrastructure.*
 
-**Last updated: October 2026**
+**Last updated:** October 2026
 
+</div>
 
+---
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Domain Registrars**. These tools enable individuals and organizations to register domain names, manage DNS records, and operate registrar or registry infrastructure—from consumer-friendly storefronts to ICANN-accredited registrar management systems.
+## 📑 Table of Contents
 
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS/Hosted Platforms](#️-saashosted-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🛠️ Developer Tools & Libraries](#️-developer-tools--libraries)
+- [📈 Star History](#-star-history)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support](#-support)
+- [⚖️ Disclaimer](#️-disclaimer)
 
+---
 
-**Examples** include Namecheap, Cloudflare Registrar, Porkbun, Dynadot, GoDaddy, Hover, NameSilo, Gandi, IONOS, and Spaceship (the category leaders).
-
-
-
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting registrar management, registry operations, and DNS automation—ideal for developers, resellers, and organizations seeking transparent, vendor-independent domain infrastructure.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## Sector Overview & Market Dynamics
+## 📊 Sector Overview & Market Dynamics
 
 The global domain name registrar market is valued at approximately **$2.5B–$2.7B** (with over 400 million active domain registrations globally across all TLDs) and is expanding at a steady CAGR of ~4.5%. The sector exhibits a **dual structure**: heavily concentrated at the top where an oligopoly of leading players (GoDaddy, Namecheap/Spaceship, Tucows, IONOS) accounts for ~30–35% of total volume, yet moderately-to-highly fragmented across the remaining ~65–70% among 1,500+ ICANN-accredited registrars, web hosting consolidators, and regional/niche reseller networks.
 
-## SaaS/Hosted Platforms
+---
+
+## ☁️ SaaS/Hosted Platforms
 
 | Platform | Company Scale (Revenue / Valuation) | Pricing (Starting Tier) | Free Tier / Trial Limits | Description |
 | :--- | :--- | :--- | :--- | :--- |
@@ -51,111 +58,108 @@ The global domain name registrar market is valued at approximately **$2.5B–$2.
 | **[Gandi](https://www.gandi.net/)** | ~$10M–$25M Est. Segment Revenue (European Domain Group) | €17.53/yr (~$19.10/yr) for `.com`; specialty TLDs starting at €4.99/yr | Free tier includes 2 free 3GB Webmail mailboxes and 1,000 email forwarders per domain for life with any active domain registration | Established European registrar with a privacy-first ethos ("No Bullshit"), PAT API access, free SSL certificate for 1 year per domain, and standard DNSSEC. |
 | **[Porkbun](https://porkbun.com/)** | Bootstrap / Privately held (>4M domains managed) | $9.98 1st yr `.com` (renews at $10.98/yr); entry TLDs start at $1.50/yr | Free tier includes free WHOIS privacy, free SSL certificate, free URL forwarding, and 3-month free trial of professional email hosting | Developer-friendly registrar known for low margins, free developer JSON v3 API, free WHOIS privacy, URL and email forwarding, and free SSL certificates. |
 
+---
 
+## 🔓 Open-Source GitHub Projects
 
+*Open-source platforms, complete registries, and full registrar billing engines sorted by GitHub stargazers count (descending):*
 
-## Open-Source GitHub Projects
+- **[PowerDNS](https://github.com/PowerDNS/pdns)** [![Stars](https://img.shields.io/github/stars/PowerDNS/pdns?style=social&color=white)](https://github.com/PowerDNS/pdns/stargazers)  
+  High-performance, authoritative and validating DNS server software powering major registries, registrars, and telecommunication carriers globally. Supports DNSSEC out of the box and features RESTful management APIs.
 
+- **[Nomulus (Google Registry)](https://github.com/google/nomulus)** [![Stars](https://img.shields.io/github/stars/google/nomulus?style=social&color=white)](https://github.com/google/nomulus/stargazers)  
+  Google's open-source, cloud-based Top Level Domain (TLD) domain registry platform running on Google Cloud Platform (GCP). Operates Google's portfolio of TLDs (such as `.app`, `.dev`, `.how`), fully implementing ICANN-compliant registry capabilities including EPP, WHOIS, RDAP, and DNSSEC.
 
+- **[FOSSBilling](https://github.com/FOSSBilling/FOSSBilling)** [![Stars](https://img.shields.io/github/stars/FOSSBilling/FOSSBilling?style=social&color=white)](https://github.com/FOSSBilling/FOSSBilling/stargazers)  
+  Free, open-source hosting billing and domain registrar management software. Provides modular domain registrar plugins (supporting Namecheap, ResellerClub, Enom, and generic EPP gateways), automated invoicing, client portals, and domain renewal workflows.
 
-- **[FRED (CZ.NIC)](https://fred.nic.cz/)**  
+- **[Domain Watchdog](https://github.com/maelgangloff/domain-watchdog)** [![Stars](https://img.shields.io/github/stars/maelgangloff/domain-watchdog?style=social&color=white)](https://github.com/maelgangloff/domain-watchdog/stargazers)  
+  Modern monitoring application that inspects domain registrations via RDAP, logs domain history changes, tracks expiration dates, and alerts users to acquire domains the moment they drop.
 
-  **The most mature open-source domain Registry system** (v2026.1, PostgreSQL 17, Debian 12). Developed by CZ.NIC, the .CZ domain registry. Handles **200 registry-changing operations per second** with up to **20 million domains** on common server hardware. Modular architecture allows installing only needed components across multiple servers. EPP over TLS for registry-registrar communication. Plug-and-play RPM/DEB packages with Python development library for integration. **Used by national domain registries worldwide** .
+- **[metaregistrar/php-epp-client](https://github.com/metaregistrar/php-epp-client)** [![Stars](https://img.shields.io/github/stars/metaregistrar/php-epp-client?style=social&color=white)](https://github.com/metaregistrar/php-epp-client/stargazers)  
+  The most comprehensive object-oriented PHP EPP (Extensible Provisioning Protocol) client library. Implements RFC 5730-5734, supporting connections and domain transactions across dozens of registry backends (including Verisign, Nominet, SIDN, EURid, and Donuts).
 
+- **[Namingo Registry](https://github.com/getnamingo/registry)** [![Stars](https://img.shields.io/github/stars/getnamingo/registry?style=social&color=white)](https://github.com/getnamingo/registry/stargazers)  
+  Open-source domain registry platform tailored for modern ccTLD, gTLD, private brand, and local registry operations. Provides full EPP server functionality, WHOIS/RDAP gateways, DNSSEC automation, and multi-tier registrar management.
 
+- **[manage.get.gov (CISA)](https://github.com/cisagov/manage.get.gov)** [![Stars](https://img.shields.io/github/stars/cisagov/manage.get.gov?style=social&color=white)](https://github.com/cisagov/manage.get.gov/stargazers)  
+  Production-grade Django-based registrar application operated by the Cybersecurity and Infrastructure Security Agency (CISA) to power `.gov` domain management and directly interface with the registry via EPP.
 
-- **[PyRar](https://github.com/james-stevens/pyrar)**  
+- **[Domainr EPP](https://github.com/domainr/epp)** [![Stars](https://img.shields.io/github/stars/domainr/epp?style=social&color=white)](https://github.com/domainr/epp/stargazers)  
+  Fast, idiomatically structured Go library for communicating with ICANN and ccTLD registries using EPP (Extensible Provisioning Protocol).
 
-  Open-source EPP DNS Registrar & self-contained Registry in Python (single Docker container). Runs as REST/API engine + JS web UI. Handles domain buying, renewing, and DNS hosting with signing via PowerDNS REST/API. Maintains TLD in PowerDNS, auto-manages SLD additions/removals. Supports NSEC3+OptOut DNSSEC by default. **Can run as a self-contained registry platform**. Plug-ins for EPP, local, and PyRar backends. Demo at nameshake.net. Payment via PayPal or NowPayments (crypto) .
+- **[Namingo Registrar](https://github.com/getnamingo/registrar)** [![Stars](https://img.shields.io/github/stars/getnamingo/registrar?style=social&color=white)](https://github.com/getnamingo/registrar/stargazers)  
+  Open-source ICANN-accredited domain registrar management system built atop FOSSBilling (PHP). Ideal for organizations, hosting companies, and resellers launching ICANN-compliant registrar storefronts.
 
+- **[AfriCC php-epp2](https://github.com/AfriCC/php-epp2)** [![Stars](https://img.shields.io/github/stars/AfriCC/php-epp2?style=social&color=white)](https://github.com/AfriCC/php-epp2/stargazers)  
+  High-level EPP TCP/SSL client library for PHP with extensive protocol extension support for domain creation, contact handling, nameserver updates, and transfers.
 
+- **[Internet.ee Registry (EIS)](https://github.com/internetee/registry)** [![Stars](https://img.shields.io/github/stars/internetee/registry?style=social&color=white)](https://github.com/internetee/registry/stargazers)  
+  Official open-source TLD Registry management system developed by the Estonian Internet Foundation (EIS) for operating the `.ee` ccTLD, featuring automated EPP interfaces, auction system, and registrar portal.
 
-- **[OpenDomain](https://github.com/nodeloc/opendomain)**  
+- **[OpenDomain](https://github.com/nodeloc/opendomain)** [![Stars](https://img.shields.io/github/stars/nodeloc/opendomain?style=social&color=white)](https://github.com/nodeloc/opendomain/stargazers)  
+  Free secondary domain distribution platform integrating PowerDNS (Go + Gin + PostgreSQL + Redis + Vue 3). Features real-time availability checks, DNS record management, OAuth, domain health scanning, and Telegram notifications.
 
-  Free secondary domain distribution platform integrating PowerDNS (Go + Gin + PostgreSQL + Redis + Vue 3). Features real-time availability check, auto-renewal, DNS record management (A, AAAA, CNAME, MX, TXT, NS, SRV, CAA), GitHub/Google/NodeLoc OAuth, coupon system (quota/VIP/renewal), invitation rewards, domain health scanning (DNS/HTTP/SSL/security), admin panel, and Telegram Bot notifications. Docker Compose deployment. Optional FOSSBilling integration .
+- **[masalachai/epp-client](https://github.com/masalachai/epp-client)** [![Stars](https://img.shields.io/github/stars/masalachai/epp-client?style=social&color=white)](https://github.com/masalachai/epp-client/stargazers)  
+  Memory-safe, high-performance EPP client library in Rust designed for automated domain registration, lifecycle operations, and registrar integrations.
 
+- **[PyRar](https://github.com/james-stevens/pyrar)** [![Stars](https://img.shields.io/github/stars/james-stevens/pyrar?style=social&color=white)](https://github.com/james-stevens/pyrar/stargazers)  
+  Open-source EPP DNS Registrar and self-contained Registry in Python (single Docker container). Manages domain purchasing, renewal, DNS hosting, and PowerDNS signing with built-in NSEC3+OptOut DNSSEC.
 
+- **[FRED (CZ.NIC)](https://github.com/CZ-NIC/fred-server)** [![Stars](https://img.shields.io/github/stars/CZ-NIC/fred-server?style=social&color=white)](https://github.com/CZ-NIC/fred-server/stargazers)  
+  The leading open-source domain Registry system developed by CZ.NIC (.cz registry). Handles 200 registry operations/sec and up to 20 million domains across national ccTLDs worldwide.
 
-- **[go-registrar](https://pkg.go.dev/github.com/timapril/go-registrar)**  
-
-  Proof-of-concept Domain Registrar in Go with **GPG signature-based audit trail** for all changes to sponsored domains. Originally developed at Akamai (managed their domain portfolio for ~5 years). Implements EPP (RFC5730) data structures, client/approver workflow for change requests, RAA2013-compliant escrow generator, WHOIS server, and IRRd WHOIS file generation. **Designed for domain hijacking risk mitigation** .
-
-
-
-- **[Namingo Registrar](https://github.com/getnamingo/registrar)**  
-
-  Open-source ICANN-accredited domain registrar management system built atop **FOSSBilling** (PHP). 34 GitHub stars, 10 forks. WHMCS version also available (getnamingo/registrar-whmcs). **The most practical open-source solution for running an ICANN-accredited registrar** .
-
-
-
-- **[mcpdomain](https://www.npmjs.com/package/mcpdomain)**  
-
-  **The first domain registrar built natively for AI agents**—Model Context Protocol server powered by OpenSRS/Tucows. Buy and manage domains from inside any AI conversation (Claude, ChatGPT, Cursor). Seven tools: check availability, suggest domains, register (returns Stripe checkout URL), configure email forwarding, configure DNS (A/CNAME/MX/TXT with presets for Vercel/Netlify/GitHub Pages), get domain details, transfer existing domains. **Unique AI bot intelligence**—30-day report of GPTBot, ClaudeBot, Google-Extended crawlers hitting your domain. Free email forwarding and managed DNS. ICANN-accredited .
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[DigitalPlat FreeDomain](https://github.com/DigitalPlat)** — Open-source free domain project (AGPL-3.0) backed by The Hack Foundation (501(c)(3) nonprofit). Offers free subdomains: .DPDNS.ORG, .US.KG, .QZZ.IO, .XX.KG. Sponsored by Cloudflare, GitHub, 1Password, Twilio. **Not a trial—sustainable effort for web accessibility** .
-
-- **[DNSHE Free Domains](https://github.com/dnshe/DNSHE-FreeDomains)** — Free subdomains for developers with Anycast DNS and REST API (Singapore youth team). Suffixes: .de5.net, .us.ci, .cc.cd, .bot.cd. Free registration and renewal within 180 days before expiry. Custom nameservers supported. API for automation and CI/CD .
-
-- **[registrar-toolkit](https://repos.ecosyste.ms/topics/registrar-toolkit)** — EPP (Extensible Provisioning Protocol) libraries including masalachai/epp-client (Rust, 18 stars) for domain registration and management .
-
-- **[BulkDomainAvailabilityChecker](https://github.com/vladmycode/BulkDomainAvailabilityChecker)** — Python tool for checking up to 420 domains at once (SEO/domain research) .
-
-- Community **n8n** workflows for domain expiry monitoring and DNS record automation.
-
-
-
-**Frameworks for building custom systems**: Combine **FRED** for registry operations with **Namingo Registrar** for registrar management, **PyRar** for self-contained registrar/registry in a single container, **mcpdomain** for AI-agent domain purchasing, and **PostgreSQL** for persistence—creating a fully self-hosted, ICANN-compatible domain infrastructure stack.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Domain registrars and registry operators must comply with ICANN policies, registry agreements, and applicable data protection regulations (GDPR, CCPA, etc.).
-
-- **Open-source registrar management is mature for registry operations, emerging for consumer registrars.** FRED is used by national domain registries worldwide . Namingo Registrar provides ICANN-accredited registrar management atop FOSSBilling . **PyRar is the most complete single-container registrar/registry solution** . Consumer-facing open-source registrars remain rare due to payment processing, compliance, and support requirements.
-
-- **Renewal pricing is the true cost metric.** First-year promos ($0.01 GoDaddy, $9.99 DreamHost) are acquisition tools—renewals tell the real story . NameSilo's flat $11.05/year with free privacy delivers the lowest 5-year total cost among major registrars . Cloudflare sells at cost with no markup .
-
-- **API access varies wildly.** Porkbun offers the easiest developer experience (free keys, keyless pricing endpoint). GoDaddy requires 50+ domains for availability checks. IONOS and Hover have management-only APIs with no availability/pricing endpoints .
-
-- **AI-agent domain purchasing is emerging.** mcpdomain is the first registrar built natively for MCP—buy domains from Claude/ChatGPT/Cursor with natural language . This represents a new interface paradigm for domain acquisition.
-
-- Self-hosted open-source solutions require proper security hardening, EPP connectivity, and ongoing maintenance. Operating a registrar involves financial compliance and ICANN accreditation that tools can support but not replace.
-
-
+- **[go-registrar](https://github.com/timapril/go-registrar)** [![Stars](https://img.shields.io/github/stars/timapril/go-registrar?style=social&color=white)](https://github.com/timapril/go-registrar/stargazers)  
+  Proof-of-concept Domain Registrar in Go with a GPG signature-based audit trail for all changes to sponsored domains, built to eliminate domain hijacking risks.
 
 ---
 
+## 🛠️ Developer Tools & Libraries
 
+- **[mcpdomain](https://www.npmjs.com/package/mcpdomain)** — The first domain registrar built natively for AI agents as a Model Context Protocol (MCP) server. Enables purchasing, DNS configuration, and domain management directly inside Claude, ChatGPT, and Cursor.
+- **[DigitalPlat FreeDomain](https://github.com/DigitalPlat)** — Open-source free domain project (AGPL-3.0) backed by The Hack Foundation (501(c)(3) nonprofit) providing subdomains (.DPDNS.ORG, .US.KG, .QZZ.IO).
+- **[DNSHE Free Domains](https://github.com/dnshe/DNSHE-FreeDomains)** — Free subdomains for developers with Anycast DNS and REST API automation (.de5.net, .us.ci, .cc.cd).
+- **[BulkDomainAvailabilityChecker](https://github.com/vladmycode/BulkDomainAvailabilityChecker)** [![Stars](https://img.shields.io/github/stars/vladmycode/BulkDomainAvailabilityChecker?style=social&color=white)](https://github.com/vladmycode/BulkDomainAvailabilityChecker/stargazers) — Multi-threaded Python tool for batch domain lookup and research.
 
-**Made for developers, domain investors, hosting resellers, and registry operators building transparent domain infrastructure.**
+---
 
-Let's make Domain Registrars more open, data-driven, and developer-friendly.
+##  Star History
+[![Star History Chart](https://star-history.dera.page/svg?repss=ishandutta2007/Awesome-Domain-Registrars&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Domain-Registrars&type=date&legend=top-left)
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are always welcome! Whether you are adding a new domain registrar, updating pricing models, or sharing an open-source tool:
+
+1. **Fork the repository** to your own GitHub account.
+2. **Create a branch** for your feature or correction (`git checkout -b feature/add-registrar`).
+3. **Add or edit entries** in `README.md` keeping descriptions factual, concise, and linked to authoritative sources. Ensure any SaaS entries include exact pricing and free tier/trial limits.
+4. **Submit a Pull Request** with a brief summary of what you've added or updated.
+
+---
+
+## 💖 Support
+
+If you found **Awesome Domain Registrars** helpful, consider showing your support:
+
+- ⭐ **Star this repository** to help others discover it!
+- 🍴 **Fork and share** it with fellow developers, sysadmins, and domain enthusiasts.
+- ☕ **Sponsor or buy a coffee**: Support ongoing maintenance and open-source contributions via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Thank you for being part of the open-source and domain infrastructure community! 🙌
+
+---
+
+## ⚖️ Disclaimer
+
+- This is a **community-curated** list for educational, technical, and informational purposes. Mention does not constitute an official endorsement.
+- Domain registrars and registry operators must comply with ICANN policies, registry agreements, and applicable data privacy regulations (GDPR, CCPA).
+- **Renewal pricing is the true cost metric**: promotional rates are acquisition tools, whereas renewal rates represent sustained ownership expense.
+- Self-hosted registry and registrar architectures require proper security hardening, DNSSEC deployment, and operational compliance.
+
+---
+
+<div align="center">
+  <sub>Maintained with ❤️ by <a href="https://github.com/ishandutta2007">Ishan Dutta</a> and the open-source community.</sub>
+</div>

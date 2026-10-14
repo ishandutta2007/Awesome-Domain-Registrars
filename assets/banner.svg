@@ -1,0 +1,144 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0f1d" />
+      <stop offset="50%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#020617" />
+    </linearGradient>
+
+    <linearGradient id="primaryTextGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#818cf8" />
+      <stop offset="100%" stop-color="#c084fc" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.6" />
+    </linearGradient>
+
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <style>
+      .orbit-path {
+        stroke: #334155;
+        stroke-dasharray: 4 6;
+        fill: none;
+      }
+      .node-pulse {
+        animation: pulse 3s infinite ease-in-out;
+      }
+      @keyframes pulse {
+        0%, 100% { transform: scale(1); opacity: 0.8; }
+        50% { transform: scale(1.15); opacity: 1; filter: drop-shadow(0 0 10px #38bdf8); }
+      }
+      .badge-float-1 {
+        animation: floatOne 5s infinite ease-in-out;
+      }
+      .badge-float-2 {
+        animation: floatTwo 6s infinite ease-in-out 1s;
+      }
+      .badge-float-3 {
+        animation: floatThree 7s infinite ease-in-out 2s;
+      }
+      @keyframes floatOne {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-8px); }
+      }
+      @keyframes floatTwo {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(8px); }
+      }
+      @keyframes floatThree {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-6px); }
+      }
+      .flow-beam {
+        stroke-dasharray: 20 120;
+        animation: dash 8s linear infinite;
+      }
+      @keyframes dash {
+        to { stroke-dashoffset: -400; }
+      }
+    </style>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="360" rx="16" fill="url(#bgGrad)" />
+
+  <!-- Subtle Cyber Grid -->
+  <g stroke="#1e293b" stroke-width="0.7" opacity="0.4">
+    <line x1="0" y1="60" x2="1200" y2="60" />
+    <line x1="0" y1="120" x2="1200" y2="120" />
+    <line x1="0" y1="180" x2="1200" y2="180" />
+    <line x1="0" y1="240" x2="1200" y2="240" />
+    <line x1="0" y1="300" x2="1200" y2="300" />
+    <line x1="150" y1="0" x2="150" y2="360" />
+    <line x1="300" y1="0" x2="300" y2="360" />
+    <line x1="450" y1="0" x2="450" y2="360" />
+    <line x1="600" y1="0" x2="600" y2="360" />
+    <line x1="750" y1="0" x2="750" y2="360" />
+    <line x1="900" y1="0" x2="900" y2="360" />
+    <line x1="1050" y1="0" x2="1050" y2="360" />
+  </g>
+
+  <!-- Background Animated Network Orbits -->
+  <g opacity="0.35">
+    <ellipse cx="600" cy="180" rx="480" ry="130" class="orbit-path" stroke-width="1.2" />
+    <ellipse cx="600" cy="180" rx="480" ry="130" fill="none" stroke="#38bdf8" stroke-width="2" class="flow-beam" />
+    <ellipse cx="600" cy="180" rx="350" ry="90" class="orbit-path" stroke-width="1" />
+  </g>
+
+  <!-- Ambient Glowing Blobs -->
+  <circle cx="180" cy="90" r="120" fill="#38bdf8" opacity="0.12" filter="url(#glow)" />
+  <circle cx="1020" cy="270" r="140" fill="#a855f7" opacity="0.12" filter="url(#glow)" />
+
+  <!-- Floating Dynamic Tech Pills (Background Accent) -->
+  <g class="badge-float-1">
+    <rect x="80" y="270" width="140" height="34" rx="17" fill="url(#cardGrad)" stroke="#38bdf8" stroke-width="1" />
+    <circle cx="100" cy="287" r="5" fill="#38bdf8" />
+    <text x="114" y="292" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600">⚡ ICANN &amp; EPP</text>
+  </g>
+
+  <g class="badge-float-2">
+    <rect x="980" y="55" width="140" height="34" rx="17" fill="url(#cardGrad)" stroke="#818cf8" stroke-width="1" />
+    <circle cx="1000" cy="72" r="5" fill="#818cf8" />
+    <text x="1014" y="77" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600">🛡️ DNSSEC Ready</text>
+  </g>
+
+  <g class="badge-float-3">
+    <rect x="1010" y="270" width="130" height="34" rx="17" fill="url(#cardGrad)" stroke="#c084fc" stroke-width="1" />
+    <circle cx="1028" cy="287" r="5" fill="#c084fc" />
+    <text x="1042" y="292" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600">🌐 Anycast DNS</text>
+  </g>
+
+  <!-- Foreground Title and Branding -->
+  <g id="brand-foreground">
+    <!-- Globe Icon -->
+    <g transform="translate(600, 78)">
+      <circle cx="0" cy="0" r="28" fill="#1e293b" stroke="#38bdf8" stroke-width="2" filter="url(#glow)" />
+      <!-- Longitude/Latitude lines -->
+      <circle cx="0" cy="0" r="18" fill="none" stroke="#38bdf8" stroke-width="1.2" opacity="0.8" />
+      <ellipse cx="0" cy="0" rx="9" ry="18" fill="none" stroke="#818cf8" stroke-width="1.2" />
+      <line x1="-18" y1="0" x2="18" y2="0" stroke="#c084fc" stroke-width="1.2" />
+    </g>
+
+    <!-- Main Title -->
+    <text x="600" y="156" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="800" letter-spacing="-0.5" fill="url(#primaryTextGrad)" filter="url(#glow)">
+      Awesome Domain Registrars
+    </text>
+
+    <!-- Subtitle -->
+    <text x="600" y="200" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="500" fill="#e2e8f0" letter-spacing="0.2">
+      Curated List of SaaS Platforms, ICANN Registrars &amp; Open-Source Registry Infrastructure
+    </text>
+
+    <!-- Highlights Subline -->
+    <text x="600" y="235" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="14" font-weight="400" fill="#94a3b8">
+      Domain Registration • EPP Protocol • Anycast DNS • RDAP • Reseller APIs
+    </text>
+  </g>
+</svg>
